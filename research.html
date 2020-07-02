@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Long Tran-Thanh's personal webpage</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <!-- Insert your content here -->
+    
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span1">
+        </div>
+        <div class="span10">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <a class="brand">
+                        <font face="Georgia, Arial, Garamond">
+                        <font size="4">Long Tran-Thanh</font> <br>
+                        <font size="3">l.tran-thanh at soton.ac.uk</font>
+                        </font>
+                    </a>
+                    <ul class="nav">
+                        <li class="divider-vertical"></li>
+                        <li><a href="index.html"><font face="Georgia, Arial, Garamond">Home</font></a></li>
+                        <li class="divider-vertical"></li>
+                        <li class="active"><a href="research.html"><font face="Georgia, Arial, Garamond">Research</font></a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="HAL-LAB.html"><font face="Georgia, Arial, Garamond">HAL lab</font></a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="publications.html"><font face="Georgia, Arial, Garamond">Publications</font></a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="teaching.html"><font face="Georgia, Arial, Garamond">Teaching</font></a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="misc.html"><font face="Georgia, Arial, Garamond">Misc</font></a></li>
+                        <li class="divider-vertical"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span2">
+                        <!--Sidebar content-->
+                        <img src="img/profile_2.jpg" alt="Long's profile picture">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <b>Contact Information</b>
+                        <br/>
+                        <br/>
+                        Department of Computer Science, <br>
+                        University of Warwick, <br>
+                        UK  CV4 7AL<br>
+                        <br>
+                        <!--
+                        Tel: +44 (0) 23 8059 3256 <br/>
+                        -->
+                        <br/>
+                        
+                    </div>
+                    <div class="span8">
+                        <!--Body content-->
+                        <font face="Georgia, Arial, Garamond">
+                        <hr width="300">
+                        So far I have done some research in the following topics:
+                        </br></br>
+                        <ul>
+                        <li><a href="#online-learning">Online learning</a></li>
+                        <li><a href="#game-theory">Game theory</a></li>
+                        <li><a href="#AI-social-good">AI for society</a></li>
+                        <li><a href="#crowdsourcing">Crowdsourcing</a> </li>
+                        <li><a href="#energy-management">Energy usage management</a> </li>
+                        <li><a href="#other">Other topics</a> </li>
+                        </ul>
+                        
+                        <hr width="300">
+                        <b><a id="online-learning">Online learning/sequential decision making under uncertainty</a></b><br/>    
+                        <p align="justify">
+                        A core area of my research is sequential decision making under uncertainty with resource constraints.
+                        More precisely, I am interested in multi-armed bandit (MAB) models where pulling an arm (i.e., making a decision) requires a cost and the total spending is limited by a finite budget.
+                        To tackle this problem, I have introduced a new model, called the budget-limited MAB, and have also proposed a number of arm pulling algorithms for which I have provided both theoretical and empirical performance analyses.
+                        For more details, see:<br/><br/>
+                        <ul>
+                            <li>AAAI 2010 <a href="http://eprints.soton.ac.uk/270806/">paper</a></li>
+                            <li>AAAI 2012 <a href="http://eprints.soton.ac.uk/337280/">paper</a> (<i>honourable mention</i> for the AAAI 2012 Outstanding Paper Award)</li>
+                            <li>My <a href="http://eprints.soton.ac.uk/337660/">PhD thesis</a> (<i>runner-up</i> for the best European PhD thesis in AI, and <i>runner-up</i> for the best Computer Science PhD thesis in the UK)</li>
+                        </ul>    
+                        </p>
+                        <p align="justify">
+                        More recently with Anshuka Rangi from UCSD we have investigated the adversarial version of this problem (also known as the adversarial bandits with 1-dim knapsack problem). 
+                        <ul>
+                            <li>IJCAI 2019 <a href="https://www.ijcai.org/Proceedings/2019/459">paper</a></li>
+                    	</ul>    
+                        </p>
+                        
+                        <p align="justify">
+                        I am also interested in applying this bandit model (or its variances) to other domains of AI, such as
+                        </br>
+                        <ul>
+                            <li>Decentralised controlling for UAVs: AAMAS 2012 <a href="http://eprints.soton.ac.uk/273086/">paper</a></li>
+                            <li>Information collection in wireless sensor networks: JAAMAS journal <a href="http://eprints.soton.ac.uk/272587/">article</a></li>
+                            <li>Budget-limited online keyword bidding: UAI 2014 <a href="http://eprints.soton.ac.uk/365566/">paper</a> (collaboration with Peter Key from MSR Cambridge)</li>
+                        	<li>Applications in security games (see Game Theory section below)</li>
+                        	<li>Applications in crowdsourcing (see Crowdsourcing section)</li>
+                        
+                        </ul> 
+                        </p>
+                        </p>
+                        <p align="justify">
+                        Other work within this topic includes:
+                        <ul>
+                            <li>IJCAI 2015 <a href="https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10817">paper</a> on online stochastic multiple-choice knapsacks (collaboration with Tao Qin and his team from MSR Asia)</li>
+                    		<li>NIPS 2015 <a href="http://papers.nips.cc/paper/5985-efficient-thompson-sampling-for-online-matrix-factorization-recommendation">paper</a> on Thompson sampling for online matrix factorisation (collaboration with Adobe Research folks)</li>
+                    	</ul>    
+                        </p>
+                        
+                        <hr width="300">
+                        <b><a id="game-theory">Game theory</a></b><br/>
+                        <p align="justify">
+                        My other core research area is algorithmic game theory. I work on large coalition formation games from both game theoretical and decision making perspective.
+                        In more detail, I look at systems where the number of participants is very large (typically thousands or more). Within these systems, calculating different solution concepts (e.g., the core, nucleolus, Shapley-value, etc.) are very hard. Given this, my goal is to identify approximation techniques that can efficiently provide high quality results.
+                        To do so, with some of my colleagues, we have introduced a novel, vector-based, representation model of the participating agents, with which we can calculate the abovementioned concepts in a significantly more efficient way. 
+                        For more details, see our IJCAI 2013 <a href="http://eprints.soton.ac.uk/351024/">paper</a> (collaboration with Tri-Dung Nguyen from School of Maths, Southampton).
+                        </p>
+                    
+                        <p align="justify">
+                        Staying within game theory, I also study different games with resource allocation from both aspects of classical and behaviourial game theory.
+                        In particular, I am interested in calculating different equilibria and price of anarchy.
+                        A <a href="http://eprints.soton.ac.uk/272649/">preliminary version</a> of work has been published at SAGT 2011. 
+                        Within the repeated games setting, I aim to identify players' favourite resource allocation strategies when they repeatedly play such games against different opponents (e.g., Repeated Colonel Blotto, repeated Dollar Auctions).  
+                        <ul>
+                            <li>AAMAS 2016 <a href="https://dl.acm.org/doi/abs/10.5555/2936924.2937010">paper</a> on repeated dollar auctions (joint work with Marcin Waniek)</li>
+                    		<li>AAAI 2017 <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14414">paper</a> on dollar auction with spiteful players (joint work Marcin Waniek)</li>
+                    		<li>AAAI 2020 <a href="https://arxiv.org/abs/1905.11151">paper</a> on repeated colonel Blotto and Hide and Seek games (joint work with Dong Quan Vu <i>et al.</i> from Grenoble)</li>
+                    	</ul> 
+                    	</p>
+                        <p align="justify">
+                        More recently, I have been working on security games, where the Stackelberg model and its variants is used to model the game between defenders and attackers.
+                        In this model the defender is allowed to make the first move, and the attacker will reveal their best response in the second phase.   
+                        Within this setting, I investigate the following research questions:
+                        <ul>
+                        	<li align="justify"><i>What happens if the game is repeatedly played, and the defender has no prior information about the attackers?</i> 
+                        	    Our results on zero-sum security games (joint work with Haifeng Xu) can be found <a href="https://www.semanticscholar.org/paper/Playing-Repeated-Security-Games-with-No-Prior-Xu-Tran-Thanh/5f97238612bea789463858f2ba316d352fbe92c6">here</a> (AAMAS 2016),
+                        		and this <a href="https://eprints.soton.ac.uk/411950/">work</a> (in collaboration with Qinyu Guo from NTU) looks at the network games setting (IJCAI 2017).
+                        	</li>
+                        	<li align="justify"><i>What happens if the attacker can lie about their true utilities by faking the observation of the defender?</i>
+                        		Our ACM EC 2019 <a href="https://dl.acm.org/doi/abs/10.1145/3328526.3329629">paper</a> and NeurIPS 2019 <a href="http://papers.nips.cc/paper/9037-manipulating-a-learning-defender-and-ways-to-counteract">paper</a> (both with Jiarui Gan from Oxford) investigates this problem in more detail, and we provide optimal deception solutions for the attacker to fool their opponent.
+                        	</li>
+                        	<li align="justify"><i>Vice versa, how a defender incentivise the attacker to follow a certain desired behaviour that will be beneficial for the system?</i> 
+                        		For the single shot game setting, our IJCAI 2018 <a href="https://arxiv.org/abs/1805.01987">paper</a> provides some insights (joint work with Fei Fang's group from CMU).
+                        		While for the repeated setting, we have some working papers that look at <a href="https://arxiv.org/abs/2003.11727">last round convergence guarantees</a> and payoff matrix design approaches that guarantee a single unique Nash equilibrium point. The idea is that once we can establish these properties (i.e., unique Nash and last round convergence guarantees), we can guide the opponent to converge to a favourable mixed strategy.
+                        	</li>
+                        </ul>
+                        <p align="justify">
+                        Other work on security games with structures:
+                        <ul>
+                        	<li>Coalitional security games: AAMAS 2016 <a href="http://www.ntulily.org/wp-content/uploads/conference/Coalitional_Security_Games_accepted.pdf">paper</a> (joint work with Bo An's group from NTU)</li>
+                        	<li>Network interdiction games:  IJCAI 2017 <a href="https://eprints.soton.ac.uk/411980/">paper</a>, AAAI 2019 <a href="https://www.aaai.org/ojs/index.php/AAAI/article/view/3921">paper</a> (both are joint work with Bo An's group from NTU)</li>
+                        	<li>Inducibility of Stackelberg security games: AAAI 2019 <a href="https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4031">paper</a> (multiple coauthors, working together while visiting Milind Tambe at USC)</li>
+                        	<li>Network security games:AAAI 2020 <a href="https://arxiv.org/abs/1911.08196">paper</a> (joint work with Xiaowei Wu and Minming Li)</li>
+                        </ul>
+                        </p>
+                       <p align="justify">
+                        Other work on game theory:
+                        <ul>
+                        	<li>Regret analysis in empirical games: AAAI 2020 <a href="https://ink.library.smu.edu.sg/sis_research/5075/">paper</a> (joint work with Arunesh Sinha and folks from Michigan)</li>
+                        	<li>Social cost guarantees in smart traffic control: PRICAI 2019 <a href="Social Cost Guarantees">paper</a></li>
+                        	<li>Selfish mining in blockchain systems: PRIMA 2019 <a href="https://link.springer.com/chapter/10.1007/978-3-030-33792-6_14">paper</a></li>
+                        	<li>Continuous influence maximisation games: AAMAS 2020 <a href="https://eprints.soton.ac.uk/438158/">extended abstract paper</a>, Complex Networks 2020 <a href="https://link.springer.com/chapter/10.1007/978-3-030-40943-2_10">paper</a>, Complex Networks 2019 <a href="https://link.springer.com/chapter/10.1007/978-3-030-36687-2_57">paper</a></li>
+                        	<li>Application to cyber security: AAMAS 2018 <a href="https://dl.acm.org/doi/10.5555/3237383.3237833">paper</a> (collaboration with Milind Tambe's group from USC)</li>
+                        </ul>
+                        </p>
+                        
+                        <hr width="300"> 
+                        <b><a id="AI-social-good">AI for society</a></b><br/>
+                        <p align="justify">
+                        In the last few years I have been using principled AI techniques to tackle a number of societal and environmental challenges. These include:
+                        <ul>
+                        	<li align="justify">Work on housing allocation management for homeless youth in the US: AIES 2018 <a href="https://eprints.soton.ac.uk/428768/">paper</a> (joint work with Hau Chan)</li>
+                        	<li align="justify">Game theoretic and online learning based patrolling mechanisms against illegal poaching: AAMAS 2019 <a href="https://dl.acm.org/doi/10.5555/3306127.3331719">paper</a> (joint work with Shahrzad Gholami)</li>
+                        	<li align="justify">Efficient resource allocation to mitigate wild fires: IJCAI 2020 <a href="">paper</a> (will be uploaded soon, joint work with Hau Chan and Vignesh Viswanathan)</li>
+                        </ul>
+                        </p>
+                        
+                        <hr width="300">
+                        <b><a id="crowdsourcing">Crowdsourcing</a></b><br/>
+                        <p align="justify">
+                        Another application domain of my research is crowdsourcing. In particular, I am interested in investigating the performance of different crowdsourcing systems from a theoretical perspective, aiming to provide rigorous performance guarantees for task allocation algorithms.
+                        Some of our results are listed below:<br/><br/>
+                         <ul>
+                            <li>ECAI 2012 <a href="http://eprints.soton.ac.uk/339244/">paper</a> (<i>runner-up</i> for the ECAI 2012 Best Student Paper Award)</li>
+                            <li>AAMAS 2013 <a href="http://eprints.soton.ac.uk/346675/">paper</a>on offline budget allocation for crowdsourcing systems</li>
+                            <li>AAMAS 2014 <a href="http://eprints.soton.ac.uk/362321/">paper</a> on online budget allocation in the Find-Fix-Verify workflow</li>
+                            <li>AIJ journal <a href="http://www.sciencedirect.com/science/article/pii/S0004370214000538">article</a> (2014). This work investigates the bounded bandit problem and its applications to expert crowdsourcing systems (Top 25 most cited papers of the journal between 2015-2019 period)</li>
+                            <li>AAAI 2015 <a href="http://eprints.soton.ac.uk/372107/">paper</a> on resource allocation in complex crowdsourced workflows</li>
+                           	<li>PRICAI 2019 <a href="https://link.springer.com/chapter/10.1007/978-3-030-29908-8_7">paper</a> on crowd contest design with budget limits</li>
+                        	<li> NeurIPS 2019 <a href="http://papers.nips.cc/paper/9439-streaming-bayesian-inference-for-crowdsourced-classification">paper</a> on efficient Bayesian inference for crowdsourced data collection</li>
+                        	<li> AIJ journal <a href="https://www.sciencedirect.com/science/article/abs/pii/S0004370218305551">paper</a> (2019) on efficient data collection from the crowd</li>
+                        </ul>  
+                        </p>
+                       
+                        <hr width="300"> 
+                        <b><a id="energy-management">Home energy usage management</a></b><br/>
+                        <p align="justify">
+                        I am heavily involved in the research work on home energy management.
+                        In particular, we aim to improve the energy consumption profile of home owners, in order to reduce the CO2 emission of the domestic energy sector. 
+                        To do so, as the first step, we mainly focussed on the accurate learning and prediction of homeowners' habit, such as appliance usage and heating preferences.
+                        Some currently published results are:<br/><br/>
+                         <ul>
+                            <li>ATES 2013 workshop <a href="http://eprints.soton.ac.uk/351238/">paper</a></li>
+                            <li>ACM E-Energy 2013 <a href="http://eprints.soton.ac.uk/351240/">paper</a></li>
+                            <li>IJCAI 2013 <a href="http://eprints.soton.ac.uk/351242/">paper</a></li>
+                        </ul> 
+                        </p>
+                        <p align="justify">
+                        More recently we look at combining ML techniques with user preference elicitation to further improve predictive home energy management. 
+                        However, the preference elicitation part has to be done without annoying the users too much (e.g., to learn when to ask and when not to ask questions). Our results can be found at:
+                         <ul>
+                            <li>IJCAI 2016 <a href="https://eprints.soton.ac.uk/396670/">paper</a></li>
+                            <li>AAMAS 2018 <a href="http://eprints.soton.ac.uk/351242/">paper</a> (joint work with Tiep Le <i>et al.</i> from NMSU)</li>
+                        </ul> 
+                        
+                        </p>
+                        
+                        <hr width="300">
+                        <b><a id="other">Other research interests</a></b><br/>
+                        <p align="justify">
+                        <i>The cost of interference to closed evolving systems:</i> We investigate what is the cost to interfere into closed systems, if we want the system to achieve some desirable states.
+                        As a first step, we look at evolving evolutionay games, where an external decision maker can invest his resources into the system (e.g., via a reward scheme) such that in the long term, the agents will follow a prefered behaviour.
+                        A <a href="https://www.nature.com/articles/s41598-018-34435-2">preliminary result</a> has been published at Nature's Scientific Reports.
+                        A <a href="https://research.tees.ac.uk/en/publications/fostering-cooperation-in-structured-populations-through-local-and">follow-up result</a> has been accepted to IJCAI 2018.
+                        </p>
+                        
+                        <p align="justify">
+                        <i>Non-monetary referral incentives:</i>    
+                        I am also investigating how non-monetary referral incentivisation work in social networks. You can find a preliminary version of our work <a href="http://ftp.iza.org/dp7995.pdf">here</a>.
+                        For more details, you can visit the <a href="http://www.referral-incentives.com/">website</a> of our project, or watch a <a href="https://www.youtube.com/watch?v=ask01rHmcxk">video</a> about it.
+                        We also have a <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP14/paper/view/8948">publication</a> at HCOMP 2014.
+                        </p>    
+                        
+                        <!--
+                        <p align="justify">
+                        <i>Stochastic shortest path problems:</i> This is an ongoing work on approximating the classical stochastic shortest path, defined by Frank (1969).
+                        In particular, so far I have developed a new concentration inequality that provides a lower bound on the probability mass of the lower-tail (i.e., a lower bound on the probability P(X < a) with a < E[X]).
+                        Combining this new result with other existing concentration bounds, I could provide a O(n^3) running time algorithm that can achieve O(1/n) approximation for sure (where n is the number of vertices).
+                        In addition, the algorithm works for any type of bounded distribution.
+                        To the best of my knowledge (which can be obsolete), the scurrent tate of the art is pseudo-polynomial with 2/n approximation coefficent, which only works on discrete distributions.
+                        Currently I am aiming to improve the approximation coefficient of my algorithm. 
+                        </p>
+                        -->
+                       
+                       <br/><br/><br/>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="span1">
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
